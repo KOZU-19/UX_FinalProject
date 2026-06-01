@@ -12,6 +12,30 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".OrderSuccesfulPage"
+            android:exported="false" />
+        <activity
+            android:name=".Checkoutpage"
+            android:exported="false" />
+        <activity
+            android:name=".DetailItem"
+            android:exported="false" />
+        <activity
+            android:name=".Item"
+            android:exported="false" />
+        <activity
+            android:name=".Branchingpage"
+            android:exported="false" />
+        <activity
+            android:name=".ItemPage"
+            android:exported="false" />
+        <activity
+            android:name=".HomePage"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterPage"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
