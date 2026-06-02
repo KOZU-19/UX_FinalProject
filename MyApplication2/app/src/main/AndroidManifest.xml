@@ -24,7 +24,7 @@
             android:name=".Item"
             android:exported="false" />
         <activity
-            android:name=".Branchingpage"
+            android:name=".Branches"
             android:exported="false" />
         <activity
             android:name=".ItemPage"
