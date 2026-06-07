@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Item"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="523dp"
+            android:layout_height="851dp"
+            app:srcCompat="@drawable/bg" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/image_35__1_"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="413dp"
+            android:layout_height="773dp"
+            app:layout_constraintStart_toStartOf="@+id/imageView11"
+            tools:layout_editor_absoluteY="0dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="132dp"
+                android:layout_height="169dp"
+                app:cardCornerRadius="15dp"
+                tools:layout_editor_absoluteX="38dp"
+                tools:layout_editor_absoluteY="226dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="93dp"
+                        android:layout_height="109dp"
+                        app:srcCompat="@drawable/image_23"
+                        tools:layout_editor_absoluteX="17dp"
+                        tools:layout_editor_absoluteY="8dp" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="133dp"
+                android:layout_height="164dp"
+                app:cardCornerRadius="15dp"
+                tools:layout_editor_absoluteX="245dp"
+                tools:layout_editor_absoluteY="226dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="112dp"
+                        android:layout_height="113dp"
+                        app:srcCompat="@drawable/image_24__1_"
+                        tools:layout_editor_absoluteX="11dp"
+                        tools:layout_editor_absoluteY="14dp" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="127dp"
+                android:layout_height="165dp"
+                app:cardCornerRadius="15dp"
+                tools:layout_editor_absoluteX="39dp"
+                tools:layout_editor_absoluteY="463dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="97dp"
+                        android:layout_height="99dp"
+                        app:srcCompat="@drawable/image_25"
+                        tools:layout_editor_absoluteX="11dp"
+                        tools:layout_editor_absoluteY="16dp" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="137dp"
+                android:layout_height="159dp"
+                app:cardCornerRadius="15dp"
+                tools:layout_editor_absoluteX="245dp"
+                tools:layout_editor_absoluteY="463dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="108dp"
+                        android:layout_height="100dp"
+                        app:srcCompat="@drawable/image_26__1_"
+                        tools:layout_editor_absoluteX="13dp"
+                        tools:layout_editor_absoluteY="16dp" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="713dp"
+        android:layout_height="207dp"
+        app:srcCompat="@drawable/frame_11__1_"
+        tools:layout_editor_absoluteX="-151dp"
+        tools:layout_editor_absoluteY="-12dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

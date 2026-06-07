@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderSuccesfulPage">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="585dp"
+        android:layout_height="770dp"
+        app:srcCompat="@drawable/bg"
+        tools:layout_editor_absoluteX="-87dp"
+        tools:layout_editor_absoluteY="-20dp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="699dp"
+        android:layout_height="1292dp"
+        app:srcCompat="@drawable/image_36__2_"
+        tools:layout_editor_absoluteX="-128dp"
+        tools:layout_editor_absoluteY="-295dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="328dp"
+        android:layout_height="243dp"
+        app:srcCompat="@drawable/frame_26"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="125dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/group_13__1_"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="34dp" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="345dp"
+        android:layout_height="204dp"
+        app:srcCompat="@drawable/frame_22__1_"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="394dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/frame_23__1_"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="623dp"
+        app:circularflow_radiusInDP="15dp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
